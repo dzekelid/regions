@@ -26,7 +26,7 @@ apis:
   tags: Regions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/regions/master/_listings/youtube/i18nregions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/regions/master/_listings/youtube/i18nregions-parameters.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
