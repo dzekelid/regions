@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeSourceRegions&k=1:
+  /?Action=DescribeSourceRegions:
     get:
       summary: Describe Source Regions
       description: "Returns a list of the source AWS regions where the current AWS
