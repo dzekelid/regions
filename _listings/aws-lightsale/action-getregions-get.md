@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetRegions&k=1:
+  /?Action=GetRegions:
     get:
       summary: ' Get Regions '
       description: Returns a list of all valid regions for Amazon Lightsail
