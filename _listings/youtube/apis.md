@@ -12,8 +12,8 @@ tags:
 - Stack Network
 - Stack
 - Google APIs
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/youtube/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -26,7 +26,7 @@ apis:
   tags: Regions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/youtube/i18nregions-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/youtube/i18nregions-get.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
