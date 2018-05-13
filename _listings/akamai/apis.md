@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API List Regions
-  description: List Regions
+- name: Akamai API List Regions per Country
+  description: List Regions per Country
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Regions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/akamai/config-media-security-v1-security-regions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/akamai/config-media-security-v1-security-regions-countrycode-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
