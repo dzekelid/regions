@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/youtube/i18nregions-parameters.md
-- name: Youtube Get Regions
-  description: Returns a list of content regions that the YouTube website supports.
+- name: Youtube Parameters Regions
+  description: Parameters i18nregions
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Regions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/youtube/i18nregions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/youtube/i18nregions-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/youtube/i18nregions-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/youtube/i18nregions-parameters-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
