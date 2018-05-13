@@ -42,16 +42,7 @@ created: "2018-05-13"
 modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Etsy Get Regions Region
-  description: Retrieves a Region by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private
-  tags: Regions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/etsy/regions-region-id-get.md
+apis: []
 x-common:
 - type: x-apijson--authoritative
   url: http://apis.io/apisdef/etsy.json
