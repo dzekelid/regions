@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Get Regions
   version: 1.0.0
+  description: Returns a list of all valid regions for Amazon Lightsail.
 schemes:
 - http
 produces:
