@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Describe Source Regions
   version: 1.0.0
+  description: "Returns a list of the source AWS regions where the current AWS region
+    can create a Read Replica \n            or copy a DB snapshot from."
 schemes:
 - http
 produces:
