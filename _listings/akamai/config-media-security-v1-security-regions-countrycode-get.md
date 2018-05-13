@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API List Regions per Country
+  description: List Regions per Country
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: List Regions per Country
       operationId: configmediasecurityv1securityregionscountrycode
       parameters:
-      - in: String
+      - in: query
         name: countryCode
         description: The country code
         type: string
