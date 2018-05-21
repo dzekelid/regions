@@ -1,33 +1,56 @@
 ---
 name: Eventbrite
-description: Eventbrite believes that anyone can be an event organizer. That???s why
-  they offer tools that make it easy to sell tickets to all kinds of events whether
-  it???s a photography class or a sold-out concert, an inspiring conference or an
-  air-guitar competition. With Eventbrite, organizers can create a customizable event
-  page; spread the word with social media; collect money; and gain visibility into
-  attendees and sales. Eventbrite is for anyone planning or attending an event. It
-  empowers event organizers to become more efficient and effective when bringing people
-  together. And people everywhere are searching Eventbrite to discover great events
-  that matter to them.n
-image: https://avatars2.githubusercontent.com/u/369874?v=4
+x-slug: eventbrite
+description: Eventbrite believes that anyone can be an event organizer. That&rsquo;s
+  why they offer tools that make it easy to sell tickets to all kinds of events whether
+  it&rsquo;s a photography class or a sold-out concert, an inspiring conference or
+  an air-guitar competition. With Eventbrite, organizers can create a customizable
+  event page; spread the word with social media; collect money; and gain visibility
+  into attendees and sales. Eventbrite is for anyone planning or attending an event.
+  It empowers event organizers to become more efficient and effective when bringing
+  people together. And people everywhere are searching Eventbrite to discover great
+  events that matter to them.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/eventbritelogoff8000gradient.png
 x-kinRank: "9"
 x-alexaRank: ""
-tags:
-- Tickets
-- Ticketing
-- Stack Network
-- Stack
-- Registration
-- Partners
-- My API Stack
-- Events
-- Events
-- API LIfeycle
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: Regions
+created: "2018-05-20"
+modified: "2018-05-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/eventbrite/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Eventbrite Get System Regions
+  x-api-slug: eventbrite
+  description: |-
+    Returns a single page response with a key of regions,
+    containing a list of regions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/eventbritelogoff8000gradient.png
+  humanURL: http://developer.eventbrite.com/
+  baseURL: https://www.eventbriteapi.com//v3//system/regions/
+  tags: System,Regions
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/eventbrite/systemregions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/eventbrite/systemregions-get-openapi.md
+- name: Eventbrite
+  x-api-slug: eventbrite
+  description: Eventbrite believes that anyone can be an event organizer. That&rsquo;s
+    why they offer tools that make it easy to sell tickets to all kinds of events
+    whether it&rsquo;s a photography class or a sold-out concert, an inspiring conference
+    or an air-guitar competition. With Eventbrite, organizers can create a customizable
+    event page; spread the word with social media; collect money; and gain visibility
+    into attendees and sales. Eventbrite is for anyone planning or attending an event.
+    It empowers event organizers to become more efficient and effective when bringing
+    people together. And people everywhere are searching Eventbrite to discover great
+    events that matter to them.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/eventbritelogoff8000gradient.png
+  humanURL: http://developer.eventbrite.com/
+  baseURL: https://www.eventbriteapi.com//v3
+  tags: Regions
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/eventbrite/openapi.md
 x-common:
 - type: x-apigee-console
   url: https://api.apigee.com/v1/consoles/eventbrite/apidescription?format=internal&ver=1351170233000
