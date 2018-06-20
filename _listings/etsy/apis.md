@@ -1,28 +1,22 @@
 ---
 name: Etsy
 x-slug: etsy
-description: Etsy is a website that focuses on handmade and vintage items, as well
-  as art and craft supplies. The items include art, photography, clothing, jewelry,
-  edibles, quilts, and toys. Etsy is modeled after open craft fairs that give sellers
-  personal storefronts where they can list their goods. The company charges users
-  a flat listing fee (of 20 cents per items), and takes a commission of 3.5% off all
-  items sold. Since its launch in June 2005, the site has continually added new widgets
-  and features, and has seen corresponding growth.
-image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+description: Find handmade, vintage, and unique goods that express who you are.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "187"
 tags: Regions
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Etsy Get Regions Region
   x-api-slug: etsy
   description: Retrieves a Region by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private//regions/{region_id}
+  baseURL: https://openapi.etsy.com//v2/private///regions/{region_id}
   tags: Regions,Region
   properties:
   - type: x-openapi-spec
@@ -30,9 +24,9 @@ apis:
 - name: Etsy Get Regions
   x-api-slug: etsy
   description: Finds all Region.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private//regions
+  baseURL: https://openapi.etsy.com//v2/private///regions
   tags: Regions
   properties:
   - type: x-postman-collection
@@ -46,15 +40,15 @@ apis:
     desktop and mobile devices. Applications built on the API will connect buyers
     with sellers, promote the handmade lifestyle, and support the craftspeople who
     sell on Etsy.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private
+  baseURL: https://openapi.etsy.com//v2/private/
   tags: Regions
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/etsy/openapi.md
 x-common:
-- type: x-apijson--authoritative
+- type: x-api-json--authoritative
   url: http://apis.io/apisdef/etsy.json
 - type: x-application-gallery
   url: https://www.etsy.com/apps/
@@ -67,9 +61,23 @@ x-common:
 - type: x-copyright
   url: https://www.etsy.com/help/article/482/?ref=ftr
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/etsy
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/etsy
 - type: x-developer
   url: https://www.etsy.com/developers/
+- type: x-email
+  url: enaffiliates@etsy.com
+- type: x-email
+  url: selleraffiliate@etsy.com
+- type: x-email
+  url: developer@etsy.com
+- type: x-email
+  url: legal@etsy.com
+- type: x-email
+  url: dpo@etsy.com
+- type: x-email
+  url: dispute-resolution@etsy.com
 - type: x-forum
   url: https://www.etsy.com/developers/discussion
 - type: x-github
@@ -84,6 +92,8 @@ x-common:
   url: https://twitter.com/Etsy
 - type: x-website
   url: http://www.etsy.com/
+- type: x-website
+  url: http://etsy.com
 include: []
 maintainers:
 - FN: Kin Lane

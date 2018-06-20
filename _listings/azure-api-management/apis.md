@@ -8,10 +8,10 @@ description: Use Azure API Management as a turnkey solution for publishing APIs 
   onboarding to help get your API program up and running.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-api-management.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Regions
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/azure-api-management/apis.md
 specificationVersion: "0.14"
 apis:
@@ -24,9 +24,9 @@ apis:
   tags: Regions
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/azure-api-management/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameregions-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/azure-api-management/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameregions-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/azure-api-management/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameregions-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/azure-api-management/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameregions-get-openapi.md
 - name: Azure API Management API
   x-api-slug: azure-api-management-api
   description: Use Azure API Management as a turnkey solution for publishing APIs

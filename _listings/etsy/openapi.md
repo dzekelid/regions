@@ -4,10 +4,10 @@ x-collection-name: Etsy
 x-complete: 1
 info:
   title: Etsy
-  description: bring-etsys-handmade-marketplace-and-community-into-your-apps
+  description: bring-etsys-handmade-marketplace-and-community-into-your-apps-
   version: 1.0.0
 host: openapi.etsy.com
-basePath: /v2/private
+basePath: /v2/private/
 schemes:
 - http
 produces:
@@ -21,6 +21,9 @@ paths:
       description: Retrieves a Region by id.
       operationId: getRegionsRegion
       x-api-path-slug: regionsregion-id-get
+      parameters:
+      - in: path
+        name: region_id
       responses:
         200:
           description: OK

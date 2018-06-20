@@ -9,10 +9,10 @@ description: Amazon Relational Database Service (Amazon RDS) makes it easy to se
   andMicrosoft SQL Server.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Regions
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/aws-rds/apis.md
 specificationVersion: "0.14"
 apis:

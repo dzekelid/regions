@@ -1,13 +1,18 @@
 ---
 swagger: "2.0"
-x-collection-name: Etsy
+x-collection-name: Reverb
 x-complete: 0
 info:
-  title: Etsy Get Regions Region
-  description: Retrieves a Region by id.
-  version: 1.0.0
-host: openapi.etsy.com
-basePath: /v2/private/
+  title: reverb Get Shipping Regions
+  description: Get shipping regions.
+  termsOfService: https://reverb.com/page/terms
+  contact:
+    name: Reverb API
+    url: https://dev.reverb.com
+    email: integrations@reverb.com
+  version: "3.0"
+host: api.reverb.com
+basePath: /api
 schemes:
 - http
 produces:
@@ -15,21 +20,18 @@ produces:
 consumes:
 - application/json
 paths:
-  /regions/{region_id}:
+  /shipping/regions:
     get:
-      summary: Get Regions Region
-      description: Retrieves a Region by id.
-      operationId: getRegionsRegion
-      x-api-path-slug: regionsregion-id-get
-      parameters:
-      - in: path
-        name: region_id
+      summary: Get Shipping Regions
+      description: Get shipping regions.
+      operationId: getShippingRegions
+      x-api-path-slug: shippingregions-get
       responses:
         200:
           description: OK
       tags:
+      - Shipping
       - Regions
-      - Region
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

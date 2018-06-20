@@ -8,8 +8,8 @@ info:
     Returns a single page response with a key of regions,
     containing a list of regions.
   version: 1.0.0
-host: www.eventbriteapi.com
-basePath: /v3
+host: www.eventbrite.com
+basePath: /%7Bdata-type%7D/
 schemes:
 - http
 produces:
