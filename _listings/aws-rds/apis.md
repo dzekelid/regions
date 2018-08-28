@@ -11,38 +11,40 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Regions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/aws-rds/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Amazon RDS API Describe Source Regions
-  x-api-slug: amazon-rds-api
+- name: AWS RDS API - Describe Source Regions
+  x-api-slug: actiondescribesourceregions-get
   description: "Returns a list of the source AWS regions where the current AWS region
     can create a Read Replica \n            or copy a DB snapshot from."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=DescribeSourceRegions
-  tags: Source Regions
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/aws-rds/actiondescribesourceregions-get-openapi.md
-- name: Amazon RDS API
-  x-api-slug: amazon-rds-api
-  description: Amazon Relational Database Service (Amazon RDS) makes it easy to set
-    up, operate, and scale arelational databasein the cloud. It provides cost-efficient
-    and resizable capacity while managing time-consuming database administration tasks,
-    freeing you up to focus on your applications and business. Amazon RDS provides
-    you six familiar database engines to choose from, includingAmazon Aurora,PostgreSQL,MySQL,MariaDB,Oracle,
-    andMicrosoft SQL Server.
+- name: AWS RDS API - Describe Source Regions
+  x-api-slug: actiondescribesourceregions-get
+  description: "Returns a list of the source AWS regions where the current AWS region
+    can create a Read Replica \n            or copy a DB snapshot from."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
   baseURL: :///
-  tags: Regions
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/aws-rds/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/aws-rds/actiondescribesourceregions-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.polly.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.rds.stack.network
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
 - type: x-blog

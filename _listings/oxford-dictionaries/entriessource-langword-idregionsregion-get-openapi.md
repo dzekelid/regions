@@ -17,6 +17,26 @@ produces:
 consumes:
 - application/json
 paths:
+  /regions/{source_language}:
+    get:
+      summary: Lists available regions in a monolingual dataset
+      description: Returns a list of the available [regions](documentation/glossary?term=regions)
+        for a given monolingual language dataset.
+      operationId: getRegionsSourceLanguage
+      x-api-path-slug: regionssource-language-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: path
+        name: source_language
+        description: IANA language code
+      responses:
+        200:
+          description: OK
+      tags:
+      - Regions
+      - Source
+      - Language
   /entries/{source_lang}/{word_id}/regions={region}:
     get:
       summary: Specify GB or US dictionary for English entry search

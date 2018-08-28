@@ -30,6 +30,17 @@ paths:
       tags:
       - Regions
       - Region
+  /regions:
+    get:
+      summary: Get Regions
+      description: Finds all Region.
+      operationId: getRegions
+      x-api-path-slug: regions-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Regions
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

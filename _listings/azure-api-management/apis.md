@@ -10,38 +10,29 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Regions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/azure-api-management/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Azure API Management API Regions ListByService
-  x-api-slug: azure-api-management-api
+- name: ApiManagementClient - Regions ListByService
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameregions-get
   description: Lists all azure regions in which the service exists.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-api-management.png
   humanURL: https://azure.microsoft.com/en-us/services/api-management/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ApiManagement/service/{serviceName}/regions
-  tags: Regions
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Management, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/azure-api-management/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameregions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/azure-api-management/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameregions-get-openapi.md
-- name: Azure API Management API
-  x-api-slug: azure-api-management-api
-  description: Use Azure API Management as a turnkey solution for publishing APIs
-    to external and internal customers. Quickly create consistent and modern API gateways
-    for existing back-end services hosted anywhere, secure and protect them from abuse
-    and overuse, and get insights into usage and health. Plus, automate and scale
-    developer onboarding to help get your API program up and running.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-api-management.png
-  humanURL: https://azure.microsoft.com/en-us/services/api-management/
-  baseURL: ://management.azure.com//
-  tags: Regions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/azure-api-management/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://azure.analysis.services.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://azure.api.management.stack.network
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/api-management/
 - type: x-pricing

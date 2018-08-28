@@ -17,32 +17,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /entries/{source_lang}/{word_id}/regions={region}:
-    get:
-      summary: Specify GB or US dictionary for English entry search
-      description: USe this filter to restrict the lookup to either our Oxford Dictionary
-        of English (GB) or New Oxford American Dictionary (US).
-      operationId: getEntriesSourceLangWordRegionsRegion
-      x-api-path-slug: entriessource-langword-idregionsregion-get
-      parameters:
-      - in: query
-        name: No Name
-      - in: path
-        name: region
-        description: Region filter parameter
-      - in: path
-        name: source_lang
-        description: IANA language code
-      responses:
-        200:
-          description: OK
-      tags:
-      - Entries
-      - Source
-      - Lang
-      - Word
-      - Id
-      - Regions=region
   /regions/{source_language}:
     get:
       summary: Lists available regions in a monolingual dataset

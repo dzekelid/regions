@@ -7,35 +7,30 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-yout
 x-kinRank: "9"
 x-alexaRank: "2"
 tags: Regions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Youtube Get Regions
-  x-api-slug: youtube
+- name: YouTube - Get Regions
+  x-api-slug: i18nregions-get
   description: Returns a list of content regions that the YouTube website supports.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//i18nRegions
-  tags: Regions
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/youtube/i18nregions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/youtube/i18nregions-get-openapi.md
-- name: Youtube
-  x-api-slug: youtube
-  description: Enjoy the videos and music you love, upload original content, and share
-    it all with friends, family, and the world on YouTube.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1
-  tags: Regions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/regions/master/_listings/youtube/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://yelp.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://youtube.stack.network
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
 - type: x-authentication
